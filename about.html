@@ -1,4 +1,9 @@
 ---
 title: About
-layout: page
+layout: default
 ---
+
+
+{%- if site.author -%}
+    &nbsp;<a href="{{ site.author.url }}" target="_blank">{{ site.author.name }}</a>
+{%- endif -%}. All rights reserved. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & <a href="https://github.com/vfvong/jekyll-theme-quartz" target="_blank">Quartz</a>
